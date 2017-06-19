@@ -168,7 +168,6 @@ spacy==0.101.0
 sputnik==0.9.3
 SQLAlchemy==1.0.12
 sqlparse==0.1.19
-static-grader==2.0.1
 statsmodels==0.6.1
 subprocess32==3.2.7
 sympy==1.0
