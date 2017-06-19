@@ -1,15 +1,33 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hello, World!</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<div>
-  			<h1>Hello, World!</h1>
-		</div>
-	</body>
-</html>
+<title>Stock Information</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class=page>
+  <h1>Stock Information</h1>
+  <div class=metanav>
+    <h4>
+      Please enter a stock ticker eg. GOOG, and check desired features..
+    </h4>
+
+    <form id='userinfoform' method='post' action='index' >
+      <p>
+    Ticker symbol: <input type='text' name='ticker' />
+      </p>
+      <p>
+    Closing Price: <input type='checkbox' name='closing_pr' />
+      </p>
+      <p>
+    Adjusted Closing Price: <input type='checkbox' name='adj_closing_pr' />
+      </p>
+      <p>
+    Opening Price: <input type='checkbox' name='opening_pr' />
+      </p>
+      <p>
+    Adjusted Opening Price: <input type='checkbox' name='adj_opening_pr' />
+      </p>
+      <p>
+    <input type='submit' value='Submit' />
+      </p>
+    </form>
+
+  </div>
+</div>

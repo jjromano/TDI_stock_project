@@ -6,3 +6,4 @@ oauth==1.0.1
 oauthlib==0.7.2
 requests>=2.2.1
 simplejson==3.8.0
+Quandl==3.0.1
