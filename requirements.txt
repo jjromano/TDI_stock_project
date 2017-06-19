@@ -176,7 +176,6 @@ terminado==0.6
 testpath==0.3
 thinc==5.0.8
 toolz==0.6.0
-toree==0.2.0.dev1
 tornado==4.5.1
 traitlets==4.3.2
 Twisted==17.1.0
