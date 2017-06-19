@@ -23,7 +23,6 @@ chest==0.2.3
 click==6.7
 cloudpickle==0.2.2
 colorama==0.3.3
-conda==4.2.13
 configparser==3.5.0
 constantly==15.1.0
 cookies==2.2.1
