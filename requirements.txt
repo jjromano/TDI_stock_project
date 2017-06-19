@@ -171,7 +171,6 @@ sqlparse==0.1.19
 statsmodels==0.6.1
 subprocess32==3.2.7
 sympy==1.0
-tables==3.2.2
 tabulate==0.7.5
 tensorflow==1.1.0
 terminado==0.6
