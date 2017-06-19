@@ -59,7 +59,6 @@ html5lib==0.999
 httplib2==0.10.3
 httpretty==0.8.10
 idna==2.5
-ihtml==0.1
 incremental==16.10.1
 inflection==0.3.1
 ipaddress==1.0.18
