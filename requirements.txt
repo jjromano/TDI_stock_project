@@ -3,7 +3,6 @@ anyjson==0.3.3
 asn1crypto==0.22.0
 attrs==15.2.0
 audioread==2.1.2
-Automat==0.0.0
 awscli==1.10.19
 backports-abc==0.4
 backports.shutil-get-terminal-size==1.0.0
